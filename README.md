@@ -1,4 +1,4 @@
-基于 Mybatis3.4.1-snapshot 增加一些注释代码,便于阅读
+基于 Mybatis3.4.2 snapshot 增加一些注释代码,便于阅读
 
 MyBatis SQL Mapper Framework for Java
 =====================================
