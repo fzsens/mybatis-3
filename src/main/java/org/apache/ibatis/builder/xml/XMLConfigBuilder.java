@@ -47,6 +47,7 @@ import org.apache.ibatis.transaction.TransactionFactory;
 import org.apache.ibatis.type.JdbcType;
 
 /**
+ * 解析config.xml 构建Configuration实例
  * @author Clinton Begin
  * @author Kazuki Shimizu
  */

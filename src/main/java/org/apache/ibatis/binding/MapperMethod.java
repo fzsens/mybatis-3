@@ -81,7 +81,8 @@ public class MapperMethod {
         } else if (method.returnsMap()) {
           result = executeForMap(sqlSession, args);
         } else if (method.returnsCursor()) {
-            //返回值是 Cursor类型, 则使用 lazy load 模式,
+            //返回值是Cursor类型, 则使用 lazy load 模式,
+            //使用Cursor模式可以减少查询大量数据给系统带来的压力
           result = executeForCursor(sqlSession, args);
         } else {
           Object param = method.convertArgsToSqlCommandParam(args);

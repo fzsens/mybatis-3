@@ -23,6 +23,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import org.apache.ibatis.session.SqlSession;
 
 /**
+ * 使用工厂类，增加了一个缓存层，用于提高性能
+ *
  * @author Lasse Voss
  */
 public class MapperProxyFactory<T> {
