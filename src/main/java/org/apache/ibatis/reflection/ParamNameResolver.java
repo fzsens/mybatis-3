@@ -137,6 +137,7 @@ public class ParamNameResolver {
    * Multiple parameters are named using the naming rule.<br />
    * In addition to the default names, this method also adds the generic names (param1, param2,
    * ...).
+   * 多个查询参数，构建成param:instance的Map结构
    * </p>
    */
   public Object getNamedParams(Object[] args) {
